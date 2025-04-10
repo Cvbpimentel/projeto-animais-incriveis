@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Animais Incríveis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    
+<main class="personagens">
+    <div class="personagem selecionado">
+        <picture>
+            <source srcset="./src/imagens/ra-flexa-dourada-1920-1080.png" media="(min-width: 768px)">
+            <img class="imagem" src="./src/imagens/ra-flexa-dourada500-600.png" alt="Rã Flexa Dourada">
+        </picture>
+        <div class="conteudo">
+            <h2 class="nome-personagem">Rã Flexa Dourada</h2>
+            <p class="descricao">A Rã Flexa Dourada é uma das espécies mais venenosas do planeta. Seu veneno é capaz de
+                causar sérios danos a predadores e é usado por tribos indígenas para envenenar dardos.</p>
+        </div>
+    </div>
+    <div class="personagem">
+        <picture>
+            <source srcset="./src/imagens/camaleao-pantera-1920-1080.png" media="(min-width: 768px)">
+            <img class="imagem" src="./src/imagens/camaleao-pantera-500-600r.png" alt="Camaleão Pantera">
+        </picture>
+        <div class="conteudo">
+            <h2 class="nome-personagem">Camaleão Pantera</h2>
+            <p class="descricao">São nativos de madagasgar e são conhecidos por sua
+                habilidade de mudar de cor para camuflagem e regulação térmica. Seus olhos se movem independentemente,
+                permitindo visão de quase 360 graus. Além disso, são altamente adaptáveis a
+                diferentes ambientes, tornando-os mestres da sobrevivência. </p>
+        </div>
+    </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/axolote-1920-1080e.png" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imagens/axolote-375-812.png" alt="Axolote">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Axolote</h2>
+                <p class="descricao">Esse anfíbio pode regenerar partes do corpo, incluindo membros, coração e até partes do cérebro, tornando-o um dos animais mais estudados na medicina regenerativa. </p>
+            </div>
+        </div>
+        
+</main>
+
+<ul class="botoes">
+    <li>
+        <button class="botao ra-flexa-dourada-selecionado">
+            <img src="./src/imagens/icone-ra-flexa-dourada-90-90.png" alt="Ícone Rã Flexa Dourada">
+        </button>
+    </li>
+    <li>
+        <button class="botao camaleao-pantera">
+            <img src="./src/imagens/camaleao-pantera-90-90.png" alt="Ícone Camaleão Pantera" />
+        </button>
+    </li>
+
+    <li>
+        <button class="botao axolote">
+            <img src="./src/imagens/axolote-90-90.png" alt="Ícone Axolote" />
+        </button>
+    </li>
+
+    <script src="./src/js/index.js"></script>    
+
+    </body>
+
+</html>
